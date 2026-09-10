@@ -25,7 +25,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Git/GitHub", "Autodesk Maya", "Vim", "jGRASP" ]
+      "keywords": [ "Git/GitHub", "Vim", "Godot", "Autodesk Maya", "jGRASP" ]
     }
   ],
   "education": [
