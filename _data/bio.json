@@ -20,11 +20,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Java", "Python", "Typescript", "Javascript", "GDScript" ]
+      "keywords": [ "Java", "C", "Python", "Typescript", "Javascript", "GDScript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Git/GitHub", "Autodesk Maya", "Vim" ]
+      "keywords": [ "Windows", "Git/GitHub", "Autodesk Maya", "Vim", "jGRASP" ]
     }
   ],
   "education": [
