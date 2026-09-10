@@ -6,34 +6,16 @@ title: "Micromouse"
 date: 2025
 published: false
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
+  - Java
+  - Object-Oritented Programming
+  - Git/Github
+summary: "A two-player Java fishing game based on Hawaiian fish, fishing regulations, and a simulated year of fish growth."
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
+Iʻa Quest is a two-player text-based fishing game that I developed with a three-person team for a Java programming course in Spring 2025. The game takes place over a simulated year, with players competing to catch the greatest total length of fish. Players must also follow fishing regulations based on the species they catch. The regulations include legal sizes, fishing seasons, and permitted catch methods. We presented the completed project at the Student Undergraduate Research Fair (SURF) at Kapiʻolani Community College.
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+The game was built in Java using object-oriented programming concepts that we had learned throughout the course. Different Hawaiian fish species were represented through a class hierarchy, while an interface defined information on the various regulations. Fish were stored in an 'ArrayList' representing the pond and could grow as the game's months progressed. During each turn, players selected a fishing method, attempted to catch a randomly selected fish, and decided whether to keep or release their catch. Keeping an illegal fish resulted in the player's entire collection of fish being confiscated.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+I took on the role of team lead and contributed to several major parts of the game's implementation. I created the initial structure for the main game and worked on integrating the game's core systems. Some of my specific work included the time progression system, the ability for players to return previously caught fish to the pond, and implementing fishing behavior for part of the fish hierarchy.
 
-Here is some code that illustrates how we read values from the line sensors:
-
-```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+This project gave me experience working collaboratively on a larger program. I became more comfortable using Git and Github to work with seperate branches and merge contributions from multiple developers. It also gave me experience coordinating a team while continuing to contribute directly to the design and programming of the finished application.
