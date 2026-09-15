@@ -6,6 +6,7 @@ title: "Learning TypeScript"
 date: 2026-09-12
 published: true
 labels:
+  - Learning
   - Programming
 ---
 
