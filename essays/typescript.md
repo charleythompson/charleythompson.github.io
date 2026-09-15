@@ -4,7 +4,7 @@ type: essay
 title: "Fighting My Muscle Memory"
 # All dates must be YYYY-MM-DD format!
 date: 2026-09-12
-published: false
+published: true
 labels:
   - Learning
   - Programming
