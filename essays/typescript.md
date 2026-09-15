@@ -10,6 +10,8 @@ labels:
   - Programming
 ---
 
+<img width="500px" class="rounded float-start pe-4" src="../img/difficulty/js_code.jpg">
+
 ## Skipping JavaScript
 
 I began learning TypeScript for a college course. Before learning TypeScript, my programming experience had mostly been with Java, C, and Python. I had never touched JavaScript, so it felt a little strange skipping directly to TypeScript. Because of my prior programming experience, the idea of variables having strict types was something I was already comfortable with. At the same time, TypeScript is different enough to not feel completely natural to me. It feels like I recognize the pieces, but the way they’re arranged feels almost ‘wrong’.
