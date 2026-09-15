@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/fish.png
-title: "Micromouse"
+title: "Iʻa Quest"
 date: Spring 2025
 published: true
 labels:
