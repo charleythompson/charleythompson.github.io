@@ -1,10 +1,10 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/fish.png
 title: "Micromouse"
 date: Spring 2025
-published: false
+published: true
 labels:
   - Java
   - Object-Oritented Programming
