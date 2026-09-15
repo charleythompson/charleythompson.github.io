@@ -4,7 +4,7 @@ type: essay
 title: "Learning TypeScript"
 # All dates must be YYYY-MM-DD format!
 date: 2026-09-12
-published: true
+published: false
 labels:
   - Learning
   - Programming
