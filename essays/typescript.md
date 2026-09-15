@@ -10,7 +10,7 @@ labels:
   - Programming
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/difficulty/js_code.jpg">
+<img width="500px" class="rounded float-start pe-4" src="../img/js_code.jpg">
 
 ## Skipping JavaScript
 
