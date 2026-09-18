@@ -4,7 +4,7 @@ type: project
 image: img/rocket.png
 title: "3D Modeling and Animation in Maya"
 date: 2026-09-01
-published: false
+published: true
 labels:
   - Autodesk Maya
   - 3D Modeling
@@ -14,6 +14,11 @@ summary: "A 3D animation project in Autodesk Maya featuring a rocket launch, a h
 ---
 
 This project was my first time using any kind of 3D modeling or animation software. My professor gave us the rather broad instructions of ‘make an animation where a rocket takes off, has a complication, then crashes’, and he encouraged us students to be creative with it. I wanted to make something ambitious enough to challenge myself, but still realistic enough that I could actually finish it without suffering from burnout. My idea was to have the rocket launch and reveal a hidden cannon in the distance, which then charges up, fires a laser, and blasts the rocket out of the sky. I spent a lot of time thinking about the animation in terms of setup and payoff, especially building towards the climactic moment where the laser pierces the rocket.
+
+<video width="100%" controls>
+  <source src="{{ '/img/rocketvid.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Most of the project involved learning how to model and apply materials. One of the biggest challenges for me was making the cannon have a convincing dull concrete texture. I originally used a noise filter for both the color and surface texture, which looked fine in Maya, but in the render it came out looking as though it had no materials applied to it at all. After a lot of frustration and research, I eventually traced the problem to my GPU rendering. I ended up having to completely rebuild the texture using Arnold noise rather than Maya’s default noise. 
 
