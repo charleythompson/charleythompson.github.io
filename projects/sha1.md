@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/sha1.png
 title: "SHA-1 Implementation"
-date: 2025-01-01
+date: Spring 2026
 published: true
 labels:
   - C
