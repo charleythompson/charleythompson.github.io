@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/rocket.png
 title: "3D Modeling and Animation in Maya"
-date: 2026-09-01
+date: September 2026
 published: true
 labels:
   - Autodesk Maya
