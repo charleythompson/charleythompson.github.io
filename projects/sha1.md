@@ -1,10 +1,10 @@
 ---
 layout: project
 type: project
-image: img/sha1.jpg
+image: img/sha1.png
 title: "SHA-1 Implementation"
 date: 2025-01-01
-published: false
+published: true
 labels:
   - C
   - Algorithms
