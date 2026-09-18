@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Building the Skeleton"
+title: "Building Skeletons"
 date: 2026-09-16
 published: true
 labels:
