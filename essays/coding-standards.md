@@ -18,7 +18,7 @@ I view learning coding standards similarly to learning keyboard shortcuts. When 
 
 I expect coding standards to have the same trajectory. Right now, as I learn them through ESLint, they feel like a hassle that only serves to eat up time. I find myself groaning over every trivial coding standard error, tediously counting my use of newlines. Wouldn’t it be so much faster if I stopped caring about coding standards and just wrote however I wanted to?
 
-![ESLint error message](../img/error.png)
+<img src="../img/error.png" width="700">
 
 ## The Time Saved
 
